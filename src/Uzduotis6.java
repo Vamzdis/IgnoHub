@@ -8,7 +8,7 @@ public class Uzduotis6 {
         System.out.println("Sveiki, iveskite savo varda");
         Scanner sc = new Scanner(System.in);
         String vardas = sc.nextLine();
-        KMIformule();
+
 
 
 
@@ -20,7 +20,7 @@ public class Uzduotis6 {
         System.out.println("Iveskite savo mase");
 
         float ugis = sc.nextFloat();
-
+        KMIformule((double) mase, (float) ugis);
     }
     public static void KMIformule (double mase, float ugis){
 
